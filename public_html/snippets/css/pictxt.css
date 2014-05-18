@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18.5.2014, 12:06:05
+    Author     : usrJones
+*/
+
+#kuvahommajuttu {
+    height: 400px;
+    width: 800px;
+    margin: auto;
+}
+
+.laatikko {
+    width: 225px;
+    height: 300px;
+    margin: 20px 0px 0px 30px;
+    float: left;
+}
+
+.teksti {
+    color: #FFF;
+    background-color: #444;
+    border-bottom: 1px solid white;
+    max-height: 0;
+    overflow: hidden;
+    text-align: center;
+    padding: 0px 1px 0px 1px;
+    
+    -webkit-transition: max-height 1s;
+    -moz-transition: max-height 1s;
+    transition: max-height 1s;
+}
+
+.laatikko:hover .teksti {
+    max-height: 200px;
+}
+
+	.kuva1 {
+            background-image: url(../pic/nponies.jpg);
+            background-repeat: no-repeat;
+	}
+	.kuva2 {
+            background-image: url(../pic/ndanny.jpg);
+            background-repeat: no-repeat;
+	}
+	.kuva3 {
+            background-image: url(../pic/ncat.jpg);
+            background-repeat: no-repeat;
+	}

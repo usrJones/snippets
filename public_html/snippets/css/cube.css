@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17.5.2014, 14:58:16
+    Author     : usrJones
+*/
+
+@charset "utf-8";
+/* CSS Document */
+
+.kuutio {
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    position: relative;
+    -webkit-transform-style: preserve-3d; /* esitetän 3d tyylillä*/
+}
+/* kaikille sivuille yhteiset */
+.kuutio div {
+    position: absolute;
+    left: 90px;
+    top: 90px;
+    width: 200px;
+    height: 200px;
+    -webkit-backface-visibility: hidden; /* ei läpinäkyvä*/
+    -webkit-transform-origin: 50% 50% -100px; /* kuvion keskipiste x y z*/
+    backface-visibility: hidden; 
+    transform-origin: 50% 50% -100px; 
+}
+
+.kuutio .p1 { 
+    /* liike 10s ääretön suora*/
+    -webkit-animation: sivu1 10s infinite linear; 
+    animation: sivu1 10s infinite linear;
+}
+.kuutio .p2 { 
+    -webkit-animation: sivu2 10s infinite linear;
+    animation: sivu2 10s infinite linear;
+}
+.kuutio .p3 { 
+    -webkit-animation: sivu3 10s infinite linear;
+    animation: sivu3 10s infinite linear;
+}
+.kuutio .p4 { 
+    -webkit-animation: sivu4 10s infinite linear;
+    animation: sivu4 10s infinite linear;
+}
+.kuutio .p5 {
+    -webkit-animation: sivu5 10s infinite linear;
+    animation: sivu5 10s infinite linear;
+}
+.kuutio .p6 {
+    animation: sivu6 10s infinite linear;
+    -webkit-animation: sivu6 10s infinite linear;
+}
+
+/* Safari,Chrome */
+/*0% aloitus  */
+/*100% lopetus  */
+@-webkit-keyframes sivu1 {
+0% {-webkit-transform: perspective(600px) rotateX(0deg) rotateY(90deg) rotateZ(0deg);}
+100% {-webkit-transform: perspective(600px) rotateX(360deg) rotateY(450deg) rotateZ(0deg);}
+}
+@-webkit-keyframes sivu2 {
+0% {-webkit-transform:perspective(600px) rotateX(0deg) rotateY(270deg) rotateZ(0deg);}
+100% {-webkit-transform:perspective(600px) rotateX(360deg) rotateY(630deg) rotateZ(0deg);}
+}
+@-webkit-keyframes sivu3 {
+0% {-webkit-transform:perspective(600px) rotateX(90deg) rotateY(0deg) rotateZ(0deg);}
+100% {-webkit-transform:perspective(600px) rotateX(450deg) rotateY(0deg) rotateZ(-360deg);}
+}
+@-webkit-keyframes sivu4 {
+0% {-webkit-transform:perspective(600px)  rotateX(-90deg) rotateY(0deg) rotateZ(0deg);}
+100% {-webkit-transform:perspective(600px) rotateX(270deg) rotateY(0deg) rotateZ(360deg);}
+}
+@-webkit-keyframes sivu5 {
+0% {-webkit-transform:perspective(600px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);}
+100% {-webkit-transform:perspective(600px) rotateX(360deg) rotateY(360deg) rotateZ(0deg);}
+}
+@-webkit-keyframes sivu6 {
+0% {-webkit-transform:perspective(600px)  rotateX(0deg) rotateY(180deg) rotateZ(0deg);}
+100% {-webkit-transform:perspective(600px) rotateX(360deg)  rotateY(540deg) rotateZ(0deg);}
+}
+
+/* IE10,Firefox */
+@keyframes sivu1 {
+0% {transform: perspective(600px) rotateX(0deg) rotateY(90deg) rotateZ(0deg);}
+100% {transform: perspective(600px) rotateX(360deg) rotateY(450deg) rotateZ(0deg);}
+}
+@keyframes sivu2 {
+0% {transform:perspective(600px) rotateX(0deg) rotateY(270deg) rotateZ(0deg);}
+100% {transform:perspective(600px) rotateX(360deg) rotateY(630deg) rotateZ(0deg);}
+}
+@keyframes sivu3 {
+0% {transform:perspective(600px) rotateX(90deg) rotateY(0deg) rotateZ(0deg);}
+100% {transform:perspective(600px) rotateX(450deg) rotateY(0deg) rotateZ(-360deg);}
+}
+@keyframes sivu4 {
+0% {transform:perspective(600px)  rotateX(-90deg) rotateY(0deg) rotateZ(0deg);}
+100% {transform:perspective(600px) rotateX(270deg) rotateY(0deg) rotateZ(360deg);}
+}
+@keyframes sivu5 {
+0% {transform:perspective(600px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);}
+100% {transform:perspective(600px) rotateX(360deg) rotateY(360deg) rotateZ(0deg);}
+}
+@keyframes sivu6 {
+0% {transform:perspective(600px)  rotateX(0deg) rotateY(180deg) rotateZ(0deg);}
+100% {transform:perspective(600px) rotateX(360deg)  rotateY(540deg) rotateZ(0deg);}
+}

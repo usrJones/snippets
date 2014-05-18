@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>drag and drop</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/dnd.css">
+        <script src="js/dnd.js"></script>
+    </head>
+    <body>
+        <a href="../index.html">back</a> <br />
+        <section id="kuvia">
+
+            <div id="alue1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="alue2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+            <div id="alue3" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+                <img id="kuva1" class="pikkukuva" src="../snippets/pic/chicken.jpg" draggable="true" 
+                ondragstart="drag(event)" alt="kuva1" width="100" height="80">
+
+                <img id="kuva2" class="pikkukuva" src="../snippets/pic/cat.jpg" draggable="true"  
+                ondragstart="drag(event)" alt="kuva2" width="100" height="80">
+
+                <img id="kuva3" class="pikkukuva" src="../snippets/pic/danny.jpg" draggable="true" 
+                ondragstart="drag(event)" alt="kuva3" width="100" height="80">
+                
+                <img id="kuva4" class="pikkukuva" src="../snippets/pic/kitty.jpg" draggable="true" 
+                ondragstart="drag(event)" alt="kuva4" width="100" height="80">
+                
+                <img id="kuva5" class="pikkukuva" src="../snippets/pic/ponies.jpg" draggable="true" 
+                ondragstart="drag(event)" alt="kuva5" width="100" height="80">
+
+            </div>
+            
+        </section>
+        
+    </body>
+</html>

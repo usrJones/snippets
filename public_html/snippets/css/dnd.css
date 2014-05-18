@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18.5.2014, 10:52:55
+    Author     : usrJones
+*/
+
+#alue1, #alue2 {
+    background-color: #FAFAFA;
+    width: 336px;
+    height: 300px;
+    float: left;
+    margin-left: 20px;
+    border: 1px solid #f1f1f1;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+#kuva1, #kuva2, #kuva3, #kuva4, #kuva5 {
+    margin: 0px 4px 0px 4px;
+}
+
+#alue3 {
+    background-color: #F1F1F1;
+    margin-left: 20px;
+    height: 120px;
+    width: 696px;
+    clear: both;
+    padding: 10px;
+}
+
+	.pikkukuva {
+            border: 1px solid grey;
+            border-radius: 2px;
+            box-shadow: 5px 5px 5px #C5C4C4;
+            padding: 1px;
+            background-color: #FFF;
+	}
