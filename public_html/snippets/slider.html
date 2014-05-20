@@ -1,19 +1,75 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
     <head>
         <title>slider</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/slider.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="js/slider.js"></script>
     </head>
     <body>
         <a href="../index.html">back</a> <br />
         
+        <div id="container">
+	
+            <div class="slide" id="eka" onClick="scrollHere('toka')">
+                <h1>Yksi<br />ja<br />kolme</h1>
+                <h2 style="color:#3A4661;">väliotsikko</h2>
+                <br /><br /><br /><br /><br /><br /> <!-- quality code right here -->
+                <h3 style="color:#3A4661;">Joonas Kujala</h3>
+            </div>
+		
+            <div class="slide" id="toka" onClick="scrollHere('kolmas')">
+                <br /><br />
+                <ul>
+                    <li><h2>yhtä riviä</h2></li>
+                    <li><h2>kahta riviä ja jotain muuta vähemmän tärkeää</h2></li>
+                    <br /><br />
+                    <li><h2>muista että pääset siis eteenpäin klikkaamalla</h2></li>
+                    <li><h2>neljännellä mennään</h2></li>
+                    <li><h2>viidennettä, muttei kuudennetta</h2></li>
+                </ul>
+            </div>
+		
+            <div class="slide" id="kolmas" onClick="scrollHere('neljas')">
+                <h1>Ihan toisaalla</h1>
+                <br /><br />
+                <ul>
+                    <li><h2>kysyntä, toteutus ja työkalut, rajaus </h2></li>
+                    <li><h2>mockupit, rautalankamallit</h2></li>
+                    <li><h2>verkkopalvelun eri versiot</h2></li>
+                    <li><h2>pin numerot ja muut salaiset tiedot</h2></li>
+                </ul>
+            </div>
+		
+            <div class="slide" id="neljas" onClick="scrollHere('viides')">
+                <h2 style="font-size: 3em;">Tähän on hyvä kirjoittaa jokin hyvä lainaus joltain kuuluisalta kirjailijalta, esimerkiksi vaikka taikka</h2>
+            </div>
+	
+            <div class="slide" id="viides" onClick="scrollHere('kuudes')">
+                <h1>Kiitos</h1>
+                <br /><br />
+                <ul>
+                    <li><h2>kukkuu ensimmäinen</h2></li>
+                    <li><h2>kaksi</h2></li>
+                    <li><h2>kolme</h2></li>
+                    <li><h2>neljä</h2></li>
+                    <li><h2><a href="www.getbootstrap.com" target="_blank">Linkki</a></h2></li>
+                    <li><h2><a href="www.foundation.zurb.com" target="_blank">Toinen linkki</a></h2></li>
+                </ul>
+            </div>
+	
+            <div class="slide" id="kuudes" onClick="scrollHere('eka')">
+                <br /><br /><br /><br />
+                <ul>
+                    <li><h2>suunnittele verkkopalvelusi hyvin</h2></li>
+                    <li><h2>myy se kalliilla eteenpäin</h2></li>
+                    <li><h2>dont repeat yourself</h2></li>
+                    <li><h2>keep it simple stupid</h2></li>
+                </ul>
+            </div>
+	</div>
+
     </body>
 </html>

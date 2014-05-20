@@ -1,10 +1,53 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
     Created on : 18.5.2014, 14:45:16
     Author     : usrJones
 */
 
+body {
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    background-color: #C3C1C1;
+    background-size: cover;
+    /*color: #333333;*/
+    margin: 0px;
+
+    overflow: hidden;
+}
+
+h1, h2, h3 {text-align: center;}
+
+h1 {font-size: 4em;}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#container {
+    width: 900px;
+    margin: 0px auto; 
+
+    box-shadow: 0 5px 15px 5px gray;
+}
+
+.slide {
+    margin: 0px;
+    padding-top: 100px;
+}
+
+#eka, #toka, #kolmas, #neljas, #viides, #kuudes{
+    background-color: #F0EBEC;
+    color: #5878BD;
+}
+
+#toka, #kolmas, #neljas, #viides, #kuudes {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#toka h2, #kolmas h2, #viides h2, #kuudes h2 {
+    text-align: left;
+}
+
+#kolmas {}
+
+#neljas {}
