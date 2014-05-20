@@ -8,3 +8,43 @@ and open the template in the editor.
     Author     : usrJones
 */
 
+* {margin:0;padding:0;}
+
+#container {
+	margin: 70px auto;
+	width: 500px;
+	height: 600px;
+	background-color: #E0E6F8;
+	border: 1px grey solid;
+	border-radius: 5px;
+}
+
+#colortable {
+margin-top: 100px;
+margin-left: 100px;
+border-collapse: collapse;
+text-align: center;
+}
+
+#colortable tr td {
+border: 1px black solid;
+width: 50px;
+height:50px;
+}
+
+#colortarget {
+width: 300px;
+height: 150px;
+background-color: #FFF;
+margin-top: 40px;
+margin-left: 102px;
+
+text-align: center;
+padding-top: 50px;
+}
+
+#colorspan1, #colorspan2 {
+font-size: 1.6em;
+}
+
+#colorspan2 {text-transform: uppercase;}
