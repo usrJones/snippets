@@ -1,0 +1,98 @@
+/* 
+    Created on : 18.5.2014, 14:54:35
+    Author     : usrJones
+*/
+
+* {margin:0;padding:0;}
+a {text-decoration: none; color:#000;}
+.clear {height: 20px;}
+
+#wrap {
+    margin: auto;
+    width: 700px;
+}
+
+#head {
+    /*background-color: #7ec342;*/
+    height: 85px;
+    width: 100%;
+    padding: 15px 0px 0px 0px;
+    margin-bottom: 2px;
+    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+    /* -- gradient -- */
+    background: #a0d746; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2EwZDc0NiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3ZWMzNDIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #a0d746 0%, #7ec342 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a0d746), color-stop(100%,#7ec342)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #a0d746 0%,#7ec342 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #a0d746 0%,#7ec342 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #a0d746 0%,#7ec342 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #a0d746 0%,#7ec342 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0d746', endColorstr='#7ec342',GradientType=0 ); /* IE6-8 */
+}
+
+#heading {
+    height: 50px;
+    text-align: center;
+}
+
+#heading h1 {
+    color: #eaebe2;
+    font: 400 60px/1.3 'Bree Serif', Georgia, serif;
+}
+
+#contents {}
+
+.item {
+    background-color: #c3f280;
+    margin: 0px 0px 2px 0px;
+    height: 56px;
+}
+
+.thing p {
+    color: #516B3B;
+    font: 400 22px/2.2 'Open Sans', Verdana, Helvetica, sans-serif;
+    margin-left: 40px;
+}
+
+.thing {
+    width: 40%;
+    display: block;
+    float: left;
+    height: 100%;
+}
+
+.descript {
+    width: 30%;
+    display: block;
+    float: left;
+    height: 100%;
+}
+
+.descript p {
+    font: 400 0.8em/1 'Open Sans', Verdana, Helvetica, sans-serif;
+}
+
+.go {
+    width: 30%;
+    display: block;
+    float: left;
+    height: 100%;
+}
+
+.pic {
+    height: 20px;
+    width: 20px;
+    background-image: url(http://www.blaquemarket.com/images/right-arrow.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=30);
+    margin: 17px 30px 0px 0px;
+    float: right;
+}

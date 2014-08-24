@@ -5,18 +5,123 @@
         <title>snippets</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="snippets/css/index.css">
+        <link href="http://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>  
+    <!--[if gte IE 9]>
+      <style type="text/css"> .gradient{filter:none;}</style>
+    <![endif]-->
     </head>
     <body>
-        <h1>Snip snap crackle pop</h1> <br />
+    <div class="clear"></div>
+    <div id="wrap">
         
-        <a href="snippets/cube.html">cube</a> <br />
-        <a href="snippets/dnd.html">drag and drop</a> <br />
-        <a href="snippets/pictxt.html">picture text</a> <br />
-        <a href="snippets/clock.html">clock</a> <br />
-        <a href="snippets/slider.html">slider</a> <br />
-        <a href="snippets/colorpicker.html">color picker</a> <br />
-        <a href="snippets/flyingparsa.html">flying parsa</a> <br />
+        <div id="head" class="gradient">
+            <div id="heading">
+                <h1>Snip snap crackle pop</h1>
+            </div>
+        </div>
         
+        <div id="contents">
+            <div class="item">
+                <a href="snippets/cube.html">
+                    <div class="thing">
+                        <p>cube</p>
+                    </div>
+                    <div class="descript">
+                        <p><br />Six images on top of each other, forged into a cube by pure CSS.</p>
+                    </div>
+                    <div class="go"><div class="pic"></div></div>
+                </a>
+            </div>
+            
+            
+            <div class="item">
+                <a href="snippets/dnd.html">
+                    <div class="thing">
+                        <p>drag and drop</p>
+                    </div>
+                    <div class="descript">
+                        <p><br />Drag and drop images from a div to another. Go nuts.</p>
+                    </div>
+                    <div class="go"><div class="pic"></div></div>
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="snippets/pictxt.html">
+                    <div class="thing">
+                        <p>picture text</p>
+                    </div>
+                    <div class="descript">
+                        <p><br />Pictures with jQuery description on mouseover.</p>
+                    </div>
+                    <div class="go"><div class="pic"></div></div>
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="snippets/clock.html">
+                    <div class="thing">
+                        <p>clock</p>
+                    </div>
+                    <div class="descript">
+                        <p><br />It is a clock.</p>
+                    </div>
+                    <div class="go"><div class="pic"></div></div>
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="snippets/slider.html">
+                    <div class="thing">
+                        <p>slider</p>
+                    </div>
+                    <div class="descript">
+                        <p><br />Resizeable slideshow made with jQuery mostly. Fun times.</p>
+                    </div>
+                    <div class="go"><div class="pic"></div></div>
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="snippets/colorpicker.html">
+                    <div class="thing">
+                        <p>color picker</p>
+                    </div>
+                    <div class="descript">
+                        <p><br />Pick a color from the table and see its hex and RGB-values.</p>
+                    </div>
+                    <div class="go"><div class="pic"></div></div>
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="snippets/flyingparsa.html">
+                    <div class="thing">
+                        <p>flying parsa</p>
+                    </div>
+                    <div class="descript">
+                        <p><br />Funny.</p>
+                    </div>
+                    <div class="go"><div class="pic"></div></div>
+                </a>
+            </div>
+
+        </div>
+        
+    </div>
+    
+    <script>
+    $(".item:odd").css("background-color", "#def7b2");
+    
+    $('.descript p').css('display', 'none');
+    $("div.item").hover(function(){
+        $('.descript p', this).show();
+    },function(){
+        $('.descript p').hide();
+    });
+    </script>
     </body>
 </html>
-<!-- iso committi -->
