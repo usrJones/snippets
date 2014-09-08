@@ -1,0 +1,32 @@
+/* 
+    Created on : 18.5.2014, 12:06:05
+    Author     : usrJones
+*/
+
+* {margin:0;padding:0;}
+a {text-decoration: none; color:#000;}
+.clear {height: 20px;}
+
+#wrap {
+    margin: auto;
+}
+
+.cube {
+    height: 10px;
+    width: 10px;
+    border: 1px solid silver;
+    display: block;
+    float: left;
+}
+
+#grid-one {
+    display: inline;
+}
+
+#grid-two {
+    display: inline;
+}
+
+#grid-three {
+    display: inline;
+}

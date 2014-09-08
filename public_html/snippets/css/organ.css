@@ -1,0 +1,38 @@
+/* 
+    Created on : 18.5.2014, 12:06:05
+    Author     : usrJones
+*/
+
+* {margin:0;padding:0;}
+a {text-decoration: none; color:#000;}
+.clear {height: 20px;text-align: center;}
+
+#wrap {
+    margin: auto;
+    width: 700px;
+    height: 500px;
+    background-color: #000;
+}
+
+
+.pedro {
+    height: 100%;
+    width: 10%;
+    float: left;
+    display: block;
+    background-color: #F0EBEC;
+}
+
+.insides {
+    width: 100%;
+    height: 100%;
+    border: 0px solid #000;
+    overflow: hidden;
+}
+
+.slider{
+    width: 100%;
+    height: 100%;
+    background-color: #49505C;
+    margin-top: 50%;
+}

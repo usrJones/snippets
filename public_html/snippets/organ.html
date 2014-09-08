@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>organ</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/organ.css">
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>  
+    </head>
+    <body>
+        <a href="../index.html">back</a> <br />
+        <div class="clear"><button type="button">borders</button></div>
+        <div class="clear"></div>
+        
+        <div id="wrap">
+
+            <div class="pedro">
+                <div class="insides">
+                    <div class="slider"></div>
+                </div>
+            </div>
+
+            <div class="pedro">
+                <div class="insides">
+                    <div class="slider"></div>
+                </div>
+            </div>
+
+            <div class="pedro">
+                <div class="insides">
+                    <div class="slider"></div>
+                </div>
+            </div>
+
+            <div class="pedro">
+                <div class="insides">
+                    <div class="slider"></div>
+                </div>
+            </div>
+            
+            <div class="pedro">
+                <div class="insides">
+                    <div class="slider"></div>
+                </div>
+            </div>
+
+            <div class="pedro">
+                <div class="insides">
+                    <div class="slider"></div>
+                </div>
+            </div>
+
+            <div class="pedro">
+                <div class="insides">
+                    <div class="slider"></div>
+                </div>
+            </div>
+
+            <div class="pedro">
+                <div class="insides">
+                    <div class="slider"></div>
+                </div>
+            </div>
+            
+            <div class="pedro">
+                <div class="insides">
+                    <div class="slider"></div>
+                </div>
+            </div>
+
+            <div class="pedro">
+                <div class="insides">
+                    <div class="slider"></div>
+                </div>
+            </div>
+
+        </div>
+        
+    <script>;
+
+        $("div.insides").hover(function(){
+            $('.slider', this).animate({ marginTop: "600%"}, {queue: false});
+        },function(){
+            $('.slider', this).animate({ marginTop: "50%"}, {queue: false});
+        });
+        
+        $("button[type=button]").click(function() {
+            $('.insides').css("border","1px solid #000");
+        });
+            
+        
+    </script>
+    </body>
+</html>
